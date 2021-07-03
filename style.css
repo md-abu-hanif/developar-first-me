@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin: 100px;
 }
 .half-width{
     width: 50%;
@@ -26,7 +27,23 @@ section{
     font-weight: 700;
     border-radius: 5px;
 }
+ .tweet{
+     text-decoration: none;
+     background-image: linear-gradient(rgb(126, 97, 97), rgb(141, 141, 206));
+     color: rgba(22, 36, 163, 0.699);
+     font-weight: 700;
+     padding: 10px 20px;
+     border-radius: 10px;
+ }
+ #right{
+     padding-right: 80px;
+ }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
